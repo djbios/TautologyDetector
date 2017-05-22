@@ -99,6 +99,7 @@ namespace TautologyDetector
             }
             WriteResult();
 
+            listBox.Items.Clear();
             foreach (var couple in couples)
             {
                 listBox.Items.Add(couple);
@@ -167,6 +168,11 @@ namespace TautologyDetector
             if (wordsCouple != null)
                 wordsCouple.two.selected = true;
             WriteResult();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            ProcessText();
         }
     }
 }

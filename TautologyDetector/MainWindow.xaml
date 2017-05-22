@@ -23,6 +23,7 @@
             </FlowDocument>
         </RichTextBox>
         <WebBrowser Name="webbrowser" Height="143" Margin="0,178,0,-0.2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="390"/>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="321" Margin="390,0,0,-0.2" VerticalAlignment="Top" Width="128" SelectionChanged="listBox_SelectionChanged"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="293" Margin="390,0,0,0" VerticalAlignment="Top" Width="128" SelectionChanged="listBox_SelectionChanged"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="390,293,0,-0.2" VerticalAlignment="Top" Width="128" Height="28" Click="button_Click"/>
     </Grid>
 </Window>
